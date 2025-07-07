@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <title>Atypical Potentia</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="asterisk-favicon.ico" />
+
+  <!-- Bootstrap icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+  <!-- Core theme CSS -->
+  <link href="css/styles.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css">
+  <link href="css/my-styles.css" rel="stylesheet" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100..900&display=swap" rel="stylesheet">
+
+  <!-- Scripts -->
+  <script src="/js/hamburger.js" defer></script>
+  <script src="js/menu.js" defer></script>
+  <script src="js/anim.js" defer></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container px-6">
+      <a class="navbar-brand" href="#"><img class="site-logo" src="img/logo.png" alt="Logo Atypical Potentia"></a>
+      <button id="hamburger-toggle" class="hamburger hamburger--spin" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+
+      <ul id="menudesktop" class="navbar-nav ms-auto mb-2 mb-lg-0 d-lg-flex">
+        
+        <li class="nav-item"><a class="nav-link" href="#about">Qui sommes nous ?</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Nos actions</a></li>
+        <li class="nav-item"><a class="nav-link" href="#partners">Nos partenaires</a></li>
+        <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Menu mobile -->
+  <div id="menu" class="container hidden navbar-collapse menu-transition">
+    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+      
+      <li class="nav-item"><a class="nav-link" href="#about">Qui sommes nous ?</a></li>
+      <li class="nav-item"><a class="nav-link" href="#projects">Nos actions</a></li>
+      <li class="nav-item"><a class="nav-link" href="#partners">Nos partenaires</a></li>
+      <li class="nav-item"><a class="nav-link" href="#media">Media</a></li>
+      <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Contenu du site -->
+  <div class="site-content container">
+
+    <!-- Header -->
+    <section id="home" class="hero-section site-header container center">
+      <div class="hero-section-bg"></div>
+      <div class="star-content">
+        <canvas id="starCanvas" style="width: 100%; height: 100%; display: block;"></canvas>
+      </div>
+      <video autoplay muted loop playsinline webkit-playsinline class="background-video" id="bg-video">
+      <source src="/img/texture.mp4" type="video/mp4">
+      <source src="/img/texture.webm" type="video/webm">
+    </video>
+      <div class="site-hero hero-content center px-4">
+        <p class="tagline">Créer. Connecter. Révéler.</p>
+        <h1><span class="highlighted">Révélons !</span> les potentiels atypiques, ensemble.</h1>
+        <p class="description">Atypical Potentia est un <span class="underline"><span class="underline-inner">réseau de projets</span></span> dédiés à la <span class="underline"><span class="underline-inner">valorisation des parcours atypiques</span></span>, dans la tech, l’art et la société.</p>
+        <a class="btn-primary btn calltoaction btn-lg px-4" href="#projects">Découvrir nos actions</a>
+        <a class="btn-secondary btn calltoaction btn-lg px-4" href="#contact">Nous contacter</a>
+    </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="container center padding-reset">
+        <div class="top"></div>
+        <div class="top-overlay"></div>
+        <div class="section-content">
+        <div class="text-center mb-4 px-4">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-people"></i></div>
+          <span class="title-section"><h2>Qui sommes nous ?</h2></span>
+          <p class="description nobold">Nous sommes 10 jeunes passionnés par la communication et les réseaux sociaux, unis par l’envie de mettre en lumière des projets qui ont du sens pour les gens, les associations, la société.</p>
+          
+        </div>
+
+        <div class="profiles-container container px-4 py-5">
+
+                <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Miohva" src="/img/miovah.png"/>
+                 <span class="profile-label mx-3 my-2">Miovah</span>
+                </div>
+                <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Eléonore" src="/img/eleonore.png"/> 
+                 <span class="profile-label mx-3 my-2">Éléonore</span>
+                </div>  
+                <div class="profile-card mx-4 my-3">        
+                 <img class="profile-picture" alt="Portrait de Chloé" src="/img/chloe.png"/>
+                 <span class="profile-label mx-3 my-2">Chloé</span>
+                </div>   
+                <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Louis-Hugo" src="/img/lh.png"/>
+                 <span class="profile-label mx-3 my-2">L-H</span>
+                </div>  
+                <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Lucas" src="/img/lucas.png"/>
+                 <span class="profile-label mx-3 my-2">Lucas</span> 
+                </div> 
+     
+                    <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Enzo" src="/img/enzo.png"/>
+                 <span class="profile-label mx-3 my-2">Enzo</span>
+                 </div> 
+                 <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Aminata" src="/img/aminata.png"/>
+                 <span class="profile-label mx-3 my-2">Aminata</span> 
+                </div>
+                <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Alice" src="/img/alice.png"/>
+                 <span class="profile-label mx-3 my-2">Alice</span>
+                </div>
+                <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Olivier" src="/img/olivier.png"/>
+                 <span class="profile-label mx-3 my-2">Olivier</span>  
+                </div>  
+                <div class="profile-card mx-4 my-3">
+                 <img class="profile-picture" alt="Portrait de Pierre-Yves" src="/img/py.png"/>
+                 <span class="profile-label mx-3 my-2">P-Y</span>
+
+                </div>     
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects" class="container center padding-reset">
+      <div class="top"></div>
+      <div class="top-overlay"></div>
+      <div class="section-content">
+        <div class="text-center mb-4 px-5">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-puzzle"></i></div>
+          <span class="title-section"><h2>Nos actions</h2></span>
+          <p class="description nobold">À travers nos actions, nous cherchons à faire émerger les potentiels souvent invisibles, à créer du lien et à transformer les représentations autour de la neurodiversité, de la vulnérabilité, et de la créativité.</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Partners -->
+    <section id="partners" class="container center padding-reset">
+      <div class="top"></div>
+      <div class="top-overlay"></div>
+      <div class="section-content">
+        <div class="text-center mb-4 px-5">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-postcard-heart-fill"></i></div>
+          <span class="title-section"><h2>Nos partenaires</h2></span>
+          <p class="description nobold">Atypical Potentia se construit grâce à un réseau de partenaires engagés : structures sociales, collectifs artistiques, établissements de soins, lieux culturels, entreprises du numérique…</p>
+      </div>
+      </div>
+    </section>
+
+    <!-- Media -->
+    <section id="media" class="container center padding-reset">
+      <div class="top"></div>
+      <div class="top-overlay"></div>
+      <div class="section-content">
+        <div class="text-center mb-4 px-5">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-broadcast"></i></div>
+          <span class="title-section"><h2>Media</h2></span>
+          <p class="description nobold">Interviews, reportages, podcasts, articles… Découvrez comment notre réseau fait écho dans la presse, les espaces culturels et les médias numériques.</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container center padding-reset">
+      <div class="top"></div>
+      <div class="top-overlay"></div>
+      <div class="section-content">
+        <div class="text-center mb-4 px-5">
+          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-3"><i class="bi bi-envelope-at"></i></div>
+          <span class="title-section"><h2>Contact</h2></span>
+          <p class="description nobold">Une question, une envie de collaboration, une idée à partager ?  L’équipe d’Atypical Potentia est à votre écoute. Que vous soyez une personne concernée, un professionnel, une structure ou simplement curieux·se, n’hésitez pas à nous écrire.</p>
+        </div>
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-6">
+            <!-- Formulaire de contact -->
+            <!-- ... form complet comme dans ton code ... -->
+          </div>
+        </div>
+        </div>
+    </section>
+
+   <!-- Fin de .site-content -->
+
+  <!-- Footer -->
+  <footer class="container px-6 bg-main">
+    <div class="container px-5">
+      <p class="m-0 text-center text-white">Copyright &copy; 2025 Atypical Potentia | <a href="#">Mentions Légales</a></p>
+    </div>
+  </footer>
+</div>
+  <button id="scrollTopBtn" class="scroll-top-btn" aria-label="Retour en haut">
+    <i class="bi bi-chevron-up"></i>
+  </button>
+
+    <!-- JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/scrolltotop.js"></script>
+    <script>
+      document.addEventListener("touchstart", () => {
+        const v = document.getElementById("bg-video");
+        if (v && v.paused) {
+          v.play().catch(() => {});
+        }
+      }, { once: true });
+    </script>
+    
+
+</body>
+</html>
