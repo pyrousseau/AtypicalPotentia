@@ -260,6 +260,14 @@ body.menu-open {
   text-shadow: 4px 4px 15px #000000;
   }
 
+  a{
+    color:#5E5E5E;
+  }
+  a:hover{
+    color:#272727;
+  }
+
+
 .btn{
   box-shadow: 4px 4px 15px #000000;
 }
@@ -425,6 +433,20 @@ top:-320px;
 
 .padding-reset{
   padding: 0!important;
+}
+
+footer{
+  height:150px;
+background-color: #272727;
+}
+
+footer a{color: #ffffff;}
+
+footer a:hover{color: #ffffff;}
+
+.copyright{
+  position:relative;
+  top:70px!important;
 }
 
 /* desktop */

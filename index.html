@@ -34,7 +34,7 @@
   <!-- Navbar -->
   <nav class="navbar navbar-expand-lg">
     <div class="container px-6">
-      <a class="navbar-brand" href="#"><img class="site-logo" src="img/logo.png" alt="Logo Atypical Potentia"></a>
+      <a class="navbar-brand" href="https://atypical-potentia.org"><img class="site-logo" src="img/logo.png" alt="Logo Atypical Potentia"></a>
       <button id="hamburger-toggle" class="hamburger hamburger--spin" type="button">
         <span class="hamburger-box">
           <span class="hamburger-inner"></span>
@@ -208,6 +208,13 @@
                   <label for="message">Message</label>
                   <div class="invalid-feedback" data-sb-feedback="message:required">Le message est obligatoire.</div>
               </div>
+              <div class="form-check mb-3">
+                <input class="form-check-input" type="checkbox" value="" id="rgpdCheck" required>
+                <label class="form-check-label" for="rgpdCheck">
+                  J’accepte que mes données soient utilisées pour être contacté(e) dans le cadre de ma demande. Voir la <a href="/politique.html" target="_blank">politique de confidentialité</a>.
+                </label>
+              </div>
+              
               <div class="d-none" id="submitSuccessMessage">
                   <div class="text-center mb-3">
                       <div class="fw-bolder">Message envoyé avec succès !</div>
@@ -228,9 +235,9 @@
    <!-- Fin de .site-content -->
 
   <!-- Footer -->
-  <footer class="container px-6 bg-main">
-    <div class="container px-5">
-      <p class="m-0 text-center text-white">Copyright &copy; 2025 Atypical Potentia | <a href="#">Mentions Légales</a></p>
+  <footer class="container px-6 ">
+    <div class="copyright">
+      <p class=" m-0 text-center text-white">Copyright &copy; 2025 Atypical Potentia | <a href="/mentions.html">Mentions Légales</a></p>
     </div>
   </footer>
 </div>
