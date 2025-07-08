@@ -268,7 +268,7 @@ body.menu-open {
   }
 
 
-.btn {
+.btn, .btn.disabled {
   position: relative;
   z-index: 3;
   border-radius: 15px;
