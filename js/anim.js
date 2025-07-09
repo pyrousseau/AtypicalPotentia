@@ -2,11 +2,21 @@ const canvas = document.getElementById("starCanvas");
 const ctx = canvas.getContext("2d");
 let stars = [];
 let counter = 0;
+let animationEnabled = window.innerWidth > 1023; // Active si pas mobile
 
 function resize() {
   canvas.width = window.innerWidth;
   canvas.height = window.innerHeight;
-  initStars();
+
+  // Met à jour le statut selon la taille
+  animationEnabled = window.innerWidth > 1023;
+
+  if (animationEnabled) {
+    initStars();
+  } else {
+    // Efface l'écran si on désactive l'animation
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+  }
 }
 
 function initStars() {
@@ -28,17 +38,19 @@ function getOpacity(star) {
 }
 
 function render() {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
+  if (animationEnabled) {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-  stars.forEach(s => {
-    ctx.globalAlpha = getOpacity(s);
-    ctx.beginPath();
-    ctx.fillStyle = "#ffffff";
-    ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-    ctx.fill();
-  });
+    stars.forEach(s => {
+      ctx.globalAlpha = getOpacity(s);
+      ctx.beginPath();
+      ctx.fillStyle = "#ffffff";
+      ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
+      ctx.fill();
+    });
 
-  counter++;
+    counter++;
+  }
   requestAnimationFrame(render);
 }
 

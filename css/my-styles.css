@@ -192,7 +192,7 @@ body.menu-open {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('/img/noise.png');
+  background: url('img/noise.png');
   opacity: 0.5;
   pointer-events: none;
   z-index:0 ;
@@ -583,6 +583,11 @@ footer a:hover{color: #ffffff;}
     top:213px!important;
   }
 
+  .star-content, .background-video{
+    display: none;
+  }
+
+  
 }
 
 @media (max-width: 768px) {
