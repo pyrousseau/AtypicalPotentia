@@ -71,11 +71,19 @@ body.menu-open {
   color: #ff5c25 !important;
 }
 
+.site-hero .description{
+ /* background:none;*/
+}
+
 .description{
   font-size: 18px;
   font-weight: 500;
   max-width: 70%;
   margin: 0 auto;;
+  background-color: #09313a;
+  color: #ffffff;
+  padding:1em;
+  text-shadow: 4px 4px 15px #000000;
 }
 
 .calltoaction{
@@ -449,6 +457,10 @@ footer a:hover{color: #ffffff;}
   top:70px!important;
 }
 
+.social{
+  font-size: 2.5rem;
+}
+
 /* desktop */
 @media (min-width: 1024px) {
 
@@ -506,13 +518,13 @@ footer a:hover{color: #ffffff;}
 /*  mobile */
 @media (max-width: 1023px) {
   .nav-link.active {
-    background-color: #F15522;
+    background-color: #09313a;
     color: #ffffff !important;
     border: none;
   }
 
   .nav-link:hover {
-    background-color: #fc7030;
+    background-color: #0e6475;
     color: #ffffff !important;
   }
 
