@@ -448,6 +448,9 @@ footer a:hover{color: #ffffff;}
   position:relative;
   top:70px!important;
 }
+.social{
+ font-size: 2.5rem;
+}
 
 /* desktop */
 @media (min-width: 1024px) {
