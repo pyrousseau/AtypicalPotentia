@@ -461,6 +461,14 @@ footer a:hover{color: #ffffff;}
   font-size: 2.5rem;
 }
 
+.policy, .legal{
+  padding-top: 150px !important;
+}
+
+.policy ul{
+  list-style: none;
+}
+
 /* desktop */
 @media (min-width: 1024px) {
 
