@@ -71,11 +71,19 @@ body.menu-open {
   color: #ff5c25 !important;
 }
 
+.site-hero .description{
+ /* background:none;*/
+}
+
 .description{
   font-size: 18px;
   font-weight: 500;
   max-width: 70%;
   margin: 0 auto;;
+  background-color: #09313a;
+  color: #ffffff;
+  padding:1em;
+  text-shadow: 4px 4px 15px #000000;
 }
 
 .calltoaction{
@@ -184,7 +192,7 @@ body.menu-open {
   content: "";
   position: absolute;
   inset: 0;
-  background: url('/img/noise.png');
+  background: url('img/noise.png');
   opacity: 0.5;
   pointer-events: none;
   z-index:0 ;
@@ -448,8 +456,17 @@ footer a:hover{color: #ffffff;}
   position:relative;
   top:70px!important;
 }
+
 .social{
- font-size: 2.5rem;
+  font-size: 2.5rem;
+}
+
+.policy, .legal{
+  padding-top: 150px !important;
+}
+
+.policy ul{
+  list-style: none;
 }
 
 /* desktop */
@@ -509,13 +526,13 @@ footer a:hover{color: #ffffff;}
 /*  mobile */
 @media (max-width: 1023px) {
   .nav-link.active {
-    background-color: #F15522;
+    background-color: #09313a;
     color: #ffffff !important;
     border: none;
   }
 
   .nav-link:hover {
-    background-color: #fc7030;
+    background-color: #0e6475;
     color: #ffffff !important;
   }
 
@@ -574,6 +591,11 @@ footer a:hover{color: #ffffff;}
     top:213px!important;
   }
 
+  .star-content, .background-video{
+    display: none;
+  }
+
+  
 }
 
 @media (max-width: 768px) {
@@ -602,4 +624,3 @@ footer a:hover{color: #ffffff;}
     width:95px;
 }
 
-}
