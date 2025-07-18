@@ -233,20 +233,24 @@
           <p class="description nobold">Une question, une envie de collaboration, une idée à partager ?  L’équipe d’Atypical Potentia est à votre écoute. Que vous soyez une personne concernée, un professionnel, une structure ou simplement curieux·se, n’hésitez pas à nous écrire.</p>
         </div>
         <div class="container px-5 my-5">
-          <form
+          <form id="contactForm" 
           action="https://formspree.io/f/mblklzjv"
           method="POST"
         >
+        <div class="mb-3">
           <label>
-            Your email:
-            <input type="email" name="email">
+            Votre Email :
+            <input class="form-control"  type="email" name="email">
           </label>
+        </div>
+        <div class=" mb-3">
           <label>
-            Your message:
-            <textarea name="message"></textarea>
+            Votre message:
+            <textarea class="form-control"name="message"></textarea>
           </label>
+        </div>
           <!-- your other form fields go here -->
-          <button type="submit">Send</button>
+          <button class="btn btn-primary btn-lg disabled calltoaction" type="submit">Envoyer</button>
         </form>
       </div>
       <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
