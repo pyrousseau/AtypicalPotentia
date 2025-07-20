@@ -363,6 +363,7 @@ section[id] {
 h1, h2, h3, h4{
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  display: block;
 }
 
 h1{
@@ -449,7 +450,14 @@ h4{
   border-bottom-left-radius: 0px;
   border-bottom-right-radius: 0px;
  /* border: 1px #868686 solid;*/
+  display: inline;
 }
+
+.values-card-title i{
+
+  margin-right: 0.5rem;;
+}
+
 .card{
   border: 1px #09313ae solid!important;
 }
