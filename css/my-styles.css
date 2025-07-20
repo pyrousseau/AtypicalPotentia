@@ -72,13 +72,13 @@ body.menu-open {
 }
 
 .site-hero .description{
- /* background:none;*/
+ background:none;
 }
 
 .description{
   font-size: 18px;
   font-weight: 500;
-  max-width: 70%;
+  max-width: 80%;
   margin: 0 auto;;
   background-color: #09313a;
   color: #ffffff;
@@ -176,7 +176,7 @@ body.menu-open {
 
 .hero-section{
   position: relative;
-  height: 550px;
+  height: 650px;
   background: #000000 url(/img/texture.webm) center;
   padding:0px!important;
   overflow: hidden;
@@ -184,7 +184,7 @@ body.menu-open {
 
 .hero-section-bg{
   position: absolute;
-  height: 600px;
+  height: 650px;
   width: 101%;
   background: linear-gradient(120deg, #ec38f2, #00f0ff, #a5ffcb);
   z-index: 0;
@@ -532,8 +532,34 @@ footer a:hover{color: #ffffff;}
   top:70px!important;
 }
 
+.site-hero .card{
+  display: block!important;
+  max-width: fit-content;
+  padding:0 0.5em;
+  margin: 0 auto;
+}
+
 .social{
+  top: 2rem;
+  position: relative;
   font-size: 2.5rem;
+  z-index: 3;
+}
+
+.social a{
+  color: #09313a;
+  margin: 0.4rem;
+}
+
+.social a:hover{
+  color: #0e6475;
+}
+
+.social-label{
+  color: #09313a;
+  font-size: 1rem;
+  display: block;
+  margin-top: 0.5rem;
 }
 
 .policy, .legal{
@@ -594,7 +620,7 @@ footer a:hover{color: #ffffff;}
     transform: scale(1.03);
   }
   .hero-content{
-    top:200px;
+    top:150px;
   }
 }
 
@@ -689,7 +715,7 @@ footer a:hover{color: #ffffff;}
      opacity: 0.05;
   }
   .hero-section{
-    height:650px;
+   height:650px;
   }
   .hero-section-bg{
     height:650px;
