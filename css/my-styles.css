@@ -77,14 +77,12 @@ font-size: 1.2em;
 }
 
 .description{
-  font-size: 18px;
-  font-weight: 500;
-  max-width: 80%;
+  font-size: 15px;
+  max-width: 50%;
   margin: 0 auto;;
-  background-color: #09313a;
+  background-color: #F15522;
   color: #ffffff;
   padding:1em;
-  text-shadow: 4px 4px 15px #000000;
 }
 
 .sub-description{
@@ -354,7 +352,13 @@ section[id] {
   scroll-margin-top: 0px;
   padding-bottom: 100px;
   scroll-margin-top: 150px;
- /* padding-top:150px;*/
+  position:relative;
+  top:-300px;
+}
+
+#about, #home{
+  position:relative;
+  top:0px!important;
 }
 
 .center {
@@ -524,6 +528,8 @@ top:-320px;
 footer{
   height:150px;
 background-color: #272727;
+position:relative;
+top:-500px
 }
 
 footer a{color: #ffffff;}
@@ -715,7 +721,12 @@ footer a:hover{color: #ffffff;}
 .values-card{
   width:50%;
 }
-
+.hero-section{
+  height:750px;
+ }
+ .hero-section-bg{
+   height:750px;
+ }
 }
 
 @media (max-width: 768px) {
