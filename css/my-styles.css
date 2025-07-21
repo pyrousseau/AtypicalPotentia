@@ -202,7 +202,6 @@ font-size: 1.2em;
   content: "";
   position: absolute;
   inset: 0;
-  background: url('img/noise.png');
   opacity: 0.5;
   pointer-events: none;
   z-index:0 ;
@@ -489,7 +488,7 @@ h4{
 }
 
 .bg-main, .bg-primary  {
-  background: linear-gradient(180deg, #083c47, #0d697e, #09313a)!important;
+  background: #F15522!important;
   border: none;
 }
 
