@@ -445,6 +445,7 @@ h4{
 .values-card{
   font-size: 15px;
   width:25%;
+  margin: 1rem 0.5rem !important;
 }
 
 .values-card-title{
@@ -737,7 +738,7 @@ footer a:hover{color: #ffffff;}
     max-width: 100%;
   }
   .values-card-container{
-    max-width: 100%
+    max-width: 100%;
   }  
   .btn-secondary{
   margin-left: 0;
@@ -746,7 +747,7 @@ footer a:hover{color: #ffffff;}
     width:95px;
 }
 .values-card{
-  margin: 1rem 0rem !important;
+  margin: 15px 0px !important;
   width:100%;
 }
 
