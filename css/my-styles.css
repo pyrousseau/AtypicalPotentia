@@ -444,6 +444,7 @@ h4{
 
 .values-card{
   font-size: 15px;
+  width:25%;
 }
 
 .values-card-title{
@@ -704,11 +705,16 @@ footer a:hover{color: #ffffff;}
 
 .values-card-container{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
+  align-content: space-around;
 }
-  
+
+.values-card{
+  width:50%;
+}
+
 }
 
 @media (max-width: 768px) {
@@ -731,13 +737,16 @@ footer a:hover{color: #ffffff;}
     max-width: 100%;
   }
   .values-card-container{
-    max-width: 95%
+    max-width: 100%
   }  
   .btn-secondary{
   margin-left: 0;
   }
   .profile-picture {
     width:95px;
+}
+.values-card{
+  width:80%;
 }
 
 }
