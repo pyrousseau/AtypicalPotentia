@@ -360,6 +360,10 @@ section[id] {
   top:0px!important;
 }
 
+#partners{
+  top:-600px!important;
+}
+
 .center {
   text-align: center;
 }
